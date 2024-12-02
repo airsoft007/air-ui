@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+tr,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+body {
+    background-color: #fefefe;
+    font-size: 13px;
+    font-family: "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+img {
+    border: 0;
+}
+
+div {
+    /* display: block; */
+    overflow: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+input,
+select,
+textarea {
+    text-indent: 5px;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    vertical-align: top;
+}
+
+input,
+select,
+textarea,
+option {
+    color: #0000AC;
+}
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+option[disabled] {
+    color: #333333;
+    background: #f0f0f0;
+}
+
+input[readonly],
+select[readonly],
+textarea[readonly],
+option[readonly] {
+    color: #333333;
+    background: #f0f0f0;
+}
+
+i,
+cite,
+em,
+address {
+    font-style: normal;
+}
+
+img {
+    border: 0;
+    border: none;
+}
+
+/*input[type='checkbox']{width: 16px;height: 16px;}*/
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.cgray {
+    color: grey;
+}
+
+.cgreen {
+    color: green;
+}
+
+.cblue {
+    color: blue;
+}
+
+.cred {
+    color: red;
+}
+
+.curhand {
+    cursor: pointer;
+}
+
+.bggray {
+    background-color: #DAD9D9;
+}
