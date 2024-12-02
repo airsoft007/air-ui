@@ -32,11 +32,9 @@
 
             <button type="button" @click="addData">添加数据</button> 数据：{{ dataSource.length }} 行
 
-            <button type="button" @click="addHeader">添加列头</button>
-
             <button type="button" @click="getSelected">获取选中行的2个方法</button>
 
-            源码下载 for Vue3：<a href="./air-ui.rar">冻结表格示例</a>
+            源码 for Vue3：<a href="https://github.com/airsoft007/air-ui/tree/master" target="_blank">冻结表格示例</a>
         </div>
     </div>
 
